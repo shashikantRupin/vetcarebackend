@@ -5,7 +5,7 @@ const {client} = require("../config/redisDB");
 require("dotenv").config();
 const bcrypt=require("bcrypt");
 const nodemailer=require("nodemailer");
-
+//userRouter
 const userRouter=express.Router()
 
 userRouter.post("/register",async(req,res)=>{
